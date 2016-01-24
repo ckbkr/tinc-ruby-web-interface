@@ -1,0 +1,36 @@
+﻿<html>
+<body>
+
+<h1>Cookies VLAN Einrichten</h1>
+
+<p>1. Tinc Downloaden: <a href="http://www.tinc-vpn.org/packages/windows/tinc-1.0.26-install.exe">Tinc Link</a>, <a href="tinc-1.0.26-install.exe">Alt Tinc Link</a></p>
+
+<p>2. Tinc Installieren</p>
+<p>3. Das von Cookie erhaltene Tinc Konfigurations Packet im Installations Ordner von Tinc Entpacken.</p>
+
+<p>4. Den Tinc TAP Adapter Installieren, dazu installNetworkDevice.bat starten, solange Entder drücken bis die Konsole zu geht.</p>
+<img src="Screenshot_1.png">
+<p>5. Den Netzwerk Adapter Umbennen in tun0, Dazu das Netzwerkverbindungen Menü mit (WIDOWS Taste + X ) oder einem Rechtsklick auf das Windows Symbol aufrufen</p>
+<img src="Screenshot_2.png">
+<img src="Screenshot_3.png">
+<p>Das Ergebnis</p>
+<img src="Screenshot_4.png">
+
+<p>5. Die Adresse des Adapters Einstellen, was für eine Adresse Ihr einstellen müsst steht in ZugeteilteIP.txt</p>
+<img src="Screenshot_5.png">
+<p>Die Netzwerk Adapter Einstellungen Öffnen und die IP4 Einstellungen Öffnen</p>
+<img src="Screenshot_6.png">
+<img src="Screenshot_7.png">
+<p>Die Zugeteilte IP und die Subnet Mask 255.255.255.0 Eintragen, OK drücken dann Schließen</p>
+<img src="Screenshot_8.png">
+<p>6. Tinc Starten, runTinc.bat Starten</p>
+<img src="Screenshot_9.png">
+<p>7. Wenn gewünscht Verknüfpung auf dem Desktop Anlegen, EInfach runTinc.bat mit gehaltener Rechter Maustaste auf den Desktop Ziehen</p>
+<p>8. Testen der Verbindung, Auf dem Kekshaus läuft ein Samba server, also im Explorer \\10.0.0.1 eingeben und man sollte den server sehen wenn alles geklappt hat<p>
+<img src="Screenshot_17.png">
+
+
+
+
+</body>
+</html>

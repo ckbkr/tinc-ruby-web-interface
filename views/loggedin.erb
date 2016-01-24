@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+
+  <body class='container'>
+    <table>	
+        <% @Choices.each do |name, addr| %>
+        <tr>  
+	
+        <td><%= name %></td> <td><%= addr %></td>
+       
+	</tr>
+
+        <% end %>
+     
+  </table>
+  </body>
+</html>
