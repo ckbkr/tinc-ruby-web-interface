@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /etc/tinc/kekshaus
+grep -v "$NODE" loggedin > loggedin_; mv loggedin_ loggedin
+

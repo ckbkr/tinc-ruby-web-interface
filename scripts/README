@@ -1,0 +1,3 @@
+These scripts belong into the /etc/tinc/networkname/ folder
+
+adjust the IP in the tinc-up script

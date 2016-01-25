@@ -1,0 +1,4 @@
+#!/bin/sh
+cd /etc/tinc/kekshaus
+#echo SubnetUp >> loggedin
+echo "$NODE $SUBNET" >> loggedin
